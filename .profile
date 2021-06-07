@@ -13,6 +13,9 @@ if [ -n "$BASH_VERSION" ]; then
     # include .bashrc if it exists
     if [ -f "$HOME/.bashrc" ]; then
 	. "$HOME/.bashrc"
+    LOGIN='%'
+	. "$HOME/.bashrc"
+    unset LOGIN
     fi
 fi
 
