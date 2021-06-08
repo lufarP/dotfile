@@ -13,4 +13,5 @@ if [ $? = 0 ]; then
 fi;
 dotfile checkout
 dotfile config status.showUntrackedFiles no
+dotfile config remote.origin.fetch "+refs/heads/*:refs/remotes/origin/*"
 
