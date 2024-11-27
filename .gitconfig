@@ -1,0 +1,18 @@
+[user]
+	name = Praful Kumar
+	email = praful.k180@gmail.com
+[core]
+	editor = gedit
+[alias]
+    # basic {{{
+    st = status -s
+    cl = clone
+    ci = commit
+    co = checkout
+    cob = checkout -b
+    br = branch
+    r = reset
+    cp = cherry-pick
+    gr = grep -Ii
+	hist = log --pretty=format:'%C(yellow)[%ad]%C(reset) %C(green)[%h]%C(reset) | %C(red)%s %C(bold yellow){{%an}}%C(reset) %C(blue)%d%C(reset)' --graph --date=short
+    # }}}
